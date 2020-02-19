@@ -63,7 +63,7 @@
                     else{
                         echo"<h2> Já existe cliente agendado no horário selecionado. </h2>";
 
-                        echo"<a href=\"form_agendamento.php\"> Tentar novamente </a>";
+                        echo"<a href=\"index.php\"> Tentar novamente </a>";
                     }
                 }
             ?>
