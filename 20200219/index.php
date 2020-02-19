@@ -52,7 +52,7 @@
 					</form>
 
 					<br/>
-					<button type="submit" class="btn btn-danger"><a href="lista_agendamento.php"> Consultar agenda </a></button>
+					<button type="submit" class="btn btn-link"><a href="lista_agendamento.php"> Consultar agenda </a></button>
 				</fieldset>
 			</div>
 			<footer>
