@@ -55,7 +55,7 @@
 					<button type="submit" class="btn btn-danger"><a href="lista_agendamento.php"> Consultar agenda </a></button>
 				</fieldset>
 			</div>
-			<footer fixed-bottom>
+			<footer>
                 Desenvolvido na aula de WEB.
             </footer>
         </div>
