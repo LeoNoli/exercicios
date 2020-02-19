@@ -7,7 +7,9 @@
     </head>
     <body>
         <div class="container">
-            <h1>Barbearia : <a href : https: //exercicios-noli.herokuapp.com></a></h1>
+            <h1>Pagina com os links dos meu exercicios </h1>
+
+            <a href = "20200219/index.php"> Barbearia </a>
         </div>
     </body>
 </html>
