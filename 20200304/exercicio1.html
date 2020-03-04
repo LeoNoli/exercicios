@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script>
+            function escreve_mensagem(valor1,valor2,valor3,valor4)
+            {
+                mensagem="";
+                if(valor1=="")
+                {
+                    mensagem+="nome nao foi preenchido\n";
+                }   
+                else(valor1)
+                {
+                    mensagem+= valor1+" nome foi preenchido\n";
+                   
+                }
+                if(valor2=="")
+                {
+                    
+                } 
+                else(valor2)
+                {
+                   
+                } 
+                if(valor3=="")
+                {
+                    
+                }  
+                else(valor3)
+                {
+                   
+                }
+                if(valor4=="")
+                {
+                    
+                }
+                else(valor4)
+                {
+                   
+                }
+                alert(mensagem);
+                mensagem="";
+            }
+    </script>
+</head>
+<body>
+    <form name ="formulario">
+        <fieldset>
+            <label id="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" />
+            <label id="email">Email:</label>
+            <input type="email" name="email" id="email" />
+            <label id="sexo">Sexo:</label>
+        <select name="sexo">
+                <option id="M">Masculino</option>
+                <option id="F">Feminino</option>
+                <option id="O">Outro</option>
+        </select>
+        <label id="data_nascimento">Data de Nascimento:</label>
+        <input type="date" name="data" id="data"/>
+    </fieldset>
+    </form>
+    <form>
+        <input type="button" value="Exibir" onclick="escreve_mensagem(document.formulario.nome.value, document.formulario.email.value, document.formulario.sexo.value, document.formulario.data.value);"/>
+    </form>
+</body>
+</html>
